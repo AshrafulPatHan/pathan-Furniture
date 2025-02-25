@@ -1,19 +1,25 @@
-import { useState } from 'react'
-import { toast } from 'react-toastify';
-import Swal from 'sweetalert2';
+import Navbar from './Components/Navigation/Navbar';
+import Footer from './Components/Navigation/Footer';
+import Hero from './Components/Home/Hero';
+import Top_Product from './Components/Home/Top_Product';
+import Fatback from './Components/Home/Fatback';
+import About from './Components/Home/About';
+import Spencer from './Components/Home/Spencer';
+
+
 
 function App() {
 
   return (
-    <>
-      <h2>hello world</h2>
-      <button className=' bg-amber-300 w-36 py-2 rounded-3xl'
-      onClick={()=>{toast("hello")}}>
-        click
-      </button>
-      <button className="btn btn-active btn-secondary"
-      onClick={()=>{Swal.fire("SweetAlert2 is working!");}}>Secondary</button>
-    </>
+    <div>
+      <Navbar/>
+      <Hero/>
+      <Top_Product/>
+      <Fatback/>
+      <About/>
+      <Spencer/>
+      <Footer/>
+    </div>
   )
 }
 
