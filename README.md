@@ -1,2 +1,2 @@
 ## Pathan Sopice
-Live Link : https://pathan-sopice-web.vercel.app/
+Live Link : https://pathan-furniture-web.vercel.app/

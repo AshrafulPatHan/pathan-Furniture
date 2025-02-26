@@ -3,7 +3,10 @@ import React from 'react';
 const Top_Product = () => {
     return (
         <div>
-            top product
+            <div>
+                <h3></h3>
+                <p></p>
+            </div>
         </div>
     );
 };
