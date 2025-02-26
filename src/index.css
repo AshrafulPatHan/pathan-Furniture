@@ -6,8 +6,31 @@
     font-family: Inter;
     src: url(./assets/inter/Inter-Light-BETA.otf);
     }
+@font-face {
+    font-family: Sansation;
+    src: url(./assets/sansation/Sansation_Bold.ttf);
+    }
 
 .Inter{
     font-family: Inter;
     font-weight: 500;
 }
+.Sansation{
+    font-family: Sansation;
+    font-weight: 500;
+}
+/* Globally */
+body{
+    font-family: Inter;
+    font-weight: 500;
+}
+
+
+/* Navbar */
+
+#nav-font{
+    font-family: Sansation;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
