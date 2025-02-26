@@ -4,15 +4,15 @@
 
 @font-face {
     font-family: Inter;
-    src: url(./assets/inter/Inter-Light-BETA.otf);
+    src: url(./assets/Font/inter/Inter-Light-BETA.otf);
     }
 @font-face {
     font-family: Sansation;
-    src: url(./assets/sansation/Sansation_Bold.ttf);
+    src: url(./assets/Font/sansation/Sansation_Bold.ttf);
     }
 @font-face {
     font-family: Roboto;
-    src: url(./assets/roboto/Roboto-Light.ttf);
+    src: url(./assets/Font/roboto/Roboto-Light.ttf);
     }
 
 .Inter{
