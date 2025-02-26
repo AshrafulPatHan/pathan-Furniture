@@ -2,4 +2,12 @@
 @plugin "daisyui";
 
 
+@font-face {
+    font-family: Inter;
+    src: url(./assets/inter/Inter-Light-BETA.otf);
+    }
 
+.Inter{
+    font-family: Inter;
+    font-weight: 500;
+}
