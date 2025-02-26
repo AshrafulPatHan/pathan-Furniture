@@ -1,37 +1,39 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
         <div>
-            <div className=' flex flex-row items-center  '>
-                <div>
+            <div className=' flex flex-row items-center justify-between mx-[120px] mt-[3px] '>
+                <div id='nav-font' className='flex flex-row items-center gap-1'>
                     <img src="/logo.svg" alt="logo" className='w-[60px] h-[64px]  ' />
+                    <h3 className='text-3xl'>Pathan Sopice</h3>
                 </div>
-                <div  className='flex flex-row items-center'>
-                    <div id='nav-font' className='flex flex-row items-center'>
-                        <p >
+                <div  className='flex flex-row items-center gap-8 '>
+                    <div id='nav-font' className='flex flex-row items-center gap-4  '>
+                        <Link >
                             Shop Now
-                        </p>
-                        <p >
+                        </Link>
+                        <Link >
                             Home Furniture
-                        </p>
-                        <p>
+                        </Link>
+                        <Link >
                             All Furniture
-                        </p>
-                        <p>
+                        </Link>
+                        <Link >
                             About Us
-                        </p>
-                        <p >
+                        </Link>
+                        <Link >
                             Contact Us
-                        </p>
+                        </Link>
                     </div>
-                    <div className='flex flex-row items-center font-normal'>
-                        <button>
+                    <div id='nav-button' className='flex flex-row items-center gap-[10px] font-normal'>
+                        <Link className='btn w-[88px] h-[40px] bg-[#C900C1] text-white rounded-4xl  '>
                             Log in
-                        </button>
-                        <button>
+                        </Link>
+                        <Link className='btn bg-white hover:bg-[#c900c2] hover:text-white w-24 h-10 border-[#C900C1] text-[#C900C1] border-[1.5px] rounded-4xl '>
                             Get start
-                        </button>
+                        </Link>
                     </div>
                 </div>
             </div>

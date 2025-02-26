@@ -10,6 +10,10 @@
     font-family: Sansation;
     src: url(./assets/sansation/Sansation_Bold.ttf);
     }
+@font-face {
+    font-family: Roboto;
+    src: url(./assets/roboto/Roboto-Light.ttf);
+    }
 
 .Inter{
     font-family: Inter;
@@ -17,6 +21,10 @@
 }
 .Sansation{
     font-family: Sansation;
+    font-weight: 500;
+}
+.Roboto{
+    font-family: Roboto;
     font-weight: 500;
 }
 /* Globally */
@@ -31,6 +39,14 @@ body{
 #nav-font{
     font-family: Sansation;
     font-weight: 500;
+    font-size: 18px;
+}
+#nav-button{
+    font-family: Roboto;
+    font-weight: 600;
     font-size: 1rem;
 }
+
+
+
 
