@@ -7,7 +7,6 @@ import About from './Components/Home/About';
 import Spencer from './Components/Home/Spencer';
 
 
-
 function App() {
 
   return (
