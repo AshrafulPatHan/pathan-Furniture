@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Logo from '/logo.svg'
 
 const Navbar = () => {
     return (
         <div>
             <div className=' flex flex-row items-center justify-between mx-[120px] mt-[3px] '>
                 <div id='nav-font' className='flex flex-row items-center gap-1'>
-                    <img src="/logo.svg" alt="logo" className='w-[60px] h-[64px]  ' />
+                    <img src={Logo} alt="logo" className='w-[60px] h-[64px]  ' />
                     <h3 className='text-3xl'>pathan Furniture</h3>
                 </div>
                 <div  className='flex flex-row items-center gap-8 '>
