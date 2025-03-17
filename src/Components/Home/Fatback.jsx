@@ -2,8 +2,10 @@ import React from 'react';
 
 const Fatback = () => {
     return (
-        <div>
-            Fatback
+        <div className='flex flex-col items-center mx-[136px] '>
+            <div>
+
+            </div>
         </div>
     );
 };

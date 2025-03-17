@@ -8,7 +8,7 @@ import { FaArrowRight } from "react-icons/fa6";
 const Hero = () => {
     return (
         <div>
-            <div className='flex flex-row items-center justify-between mx-34 mt-24 mb-[176px] '>
+            <div className='flex flex-row items-center justify-between mx-[136px] mt-24 mb-[176px] '>
                 <div>
                     <h2 className='font-[Sansation] text-[56px]/[50px] '>Discover the Latest</h2>
                     <h2 className='font-[Sansation] text-[56px]  '>Furniture Trends</h2>
