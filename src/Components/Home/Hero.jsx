@@ -8,13 +8,13 @@ import { FaArrowRight } from "react-icons/fa6";
 const Hero = () => {
     return (
         <div>
-            <div className='flex flex-row items-center justify-between mx-34 mt-24 '>
+            <div className='flex flex-row items-center justify-between mx-34 mt-24 mb-[176px] '>
                 <div>
                     <h2 className='font-[Sansation] text-[56px]/[50px] '>Discover the Latest</h2>
                     <h2 className='font-[Sansation] text-[56px]  '>Furniture Trends</h2>
                     <img src={Line} alt="line" className='w-[180px] h-[29px] relative left-[0px] top-[-30px] '/>
                     <p className='text-2xl font-normal  w-[441px] mt-[30px] '>Shop the Latest Fashion Items and Stay ahead of the style game</p>
-                    <button className="cursor-pointer mt-[180px] text-xl flex justify-center items-center border-2 gap-1 w-[180px] h-14 before:absolute before:block before:inset-0 before:-z-10 
+                    <button className="cursor-pointer mt-[160px] text-xl flex justify-center items-center border-2 gap-1 w-[180px] h-14 before:absolute before:block before:inset-0 before:-z-10 
                     before:bg-black text-white after:block hover:after:w-full after:w-0 after:hover:left-0 
                     after:right-0 after:top-0 after:h-full after:-z-10 after:duration-300 after:bg-sky-900 after:absolute 
                     relative ">
