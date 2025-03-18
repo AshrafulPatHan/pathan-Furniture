@@ -12,8 +12,9 @@ const Fatback = () => {
                     <div className='Sansation'>
                         <h4 className='text-3xl font-bold '>Discover the Latest Trends</h4>
                     </div>
-                    <p className='text-[#6A6D70] text-lg '>Stay updated with our information and engaging blog posts 
-                        about modern Furniture and Fashion on the industry</p>
+                    <p className='text-[#6A6D70] text-lg '>Stay updated with our information and engaging 
+                        blog posts about modern Furniture and Fashion on the industry
+                    </p>
                 </div>
                 <button className="cursor-pointer text-xl flex justify-center items-center border-2 gap-1 w-[180px] 
                 h-14 before:absolute before:block before:inset-0 before:-z-10 
