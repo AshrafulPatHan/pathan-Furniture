@@ -3,7 +3,7 @@
 
 export default function Footer() {
     return (
-        <div>
+        <div className="h-screen">
             Footer
         </div>
     )
